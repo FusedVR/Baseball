@@ -31,6 +31,6 @@ public class Baseball : MonoBehaviour {
     }
 
     private float GetBatForce(Rigidbody batRB) {
-        return batRB.velocity.magnitude / velocityMax * 30f;
+        return batRB.velocity.magnitude / velocityMax * 50f;
     }
 }

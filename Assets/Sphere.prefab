@@ -28,7 +28,7 @@ GameObject:
   - component: {fileID: 96773029054329600}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -167,7 +167,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -276,7 +276,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b510130812f93e043a719f312b8cf356, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  launchAngle: 0
   src: {fileID: 82144478080422720}
   t: {fileID: 96773029054329600}
 --- !u!135 &135818884694992494
@@ -289,5 +288,5 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
